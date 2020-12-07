@@ -8,10 +8,10 @@ Well, no more looking for the dice that you last saw a month ago, Dicer is here 
 Happy game night!
 
 
-![Alt Text](vid1.gif)
+<img src = "portrait.gif" width = "300" >
 
 
-<img src = "vid2.gif" height = "400" >
+<img src = "landscape.gif" height = "400" >
 
 
 
