@@ -10,4 +10,4 @@ Happy game night!
 
 <img src = "dicer/1.png" width = "300" >
 
-<img src = "dicer/2.png" height = "600" >
+<img src = "dicer/2.png" height = "400" >
