@@ -8,4 +8,4 @@ Well, no more looking for the dice that you last saw a month ago, Dicer is here 
 Happy game night!
 
 
-![](1.png)
+![](dicer/1.png)
