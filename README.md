@@ -15,4 +15,15 @@ Happy game night!
 
 
 
+# Concepts Used:
+- OOP
+- Widgets Seperation
+- Widgets reutilization
+- Portrait and Landscape modes support
+- Using Andoird/iOS Platform-Specific Widgets 
 
+# Tools used:
+- Provider
+- SVG images
+- Icon Creation for Android/IOS
+- Splash Screen creation for Android/iOS
