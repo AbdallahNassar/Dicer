@@ -8,8 +8,11 @@ Well, no more looking for the dice that you last saw a month ago, Dicer is here 
 Happy game night!
 
 
-<img src = "dicer/1.png" width = "300" >
+<img src = "portrait.gif" width = "300" >
 
-<img src = "dicer/2.png" height = "400" >
 
-![]("dicer/x.mov")
+<img src = "landscape.gif" height = "400" >
+
+
+
+
