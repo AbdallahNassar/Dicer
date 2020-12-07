@@ -17,6 +17,7 @@ Happy game night!
 
 # Concepts Used:
 - OOP
+- Animations
 - Widgets Seperation
 - Widgets reutilization
 - Portrait and Landscape modes support
