@@ -11,7 +11,7 @@ Happy game night!
 <img src = "portrait.gif" width = "300" >
 
 
-<img src = "landscape.gif" height = "400" >
+<img src = "lanscape.gif" height = "400" >
 
 
 
@@ -22,7 +22,7 @@ Happy game night!
 - Portrait and Landscape modes support
 - Using Andoird/iOS Platform-Specific Widgets 
 
-# Tools used:
+# Packages/Tools used:
 - Provider
 - SVG images
 - Icon Creation for Android/IOS
