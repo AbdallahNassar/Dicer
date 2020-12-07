@@ -12,6 +12,6 @@ Happy game night!
 
 <img src = "dicer/2.png" height = "400" >
 
-<img src = "dicer/vid1.gif" height = "300" >
+<img src = "dicer/vid1.gif">
 
 
