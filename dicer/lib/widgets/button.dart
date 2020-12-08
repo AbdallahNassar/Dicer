@@ -67,8 +67,12 @@ class _ButtonState extends State<Button> {
             'Roll',
             textAlign: TextAlign.center,
             style: Platform.isIOS
-                ? CupertinoTheme.of(context).textTheme.textStyle
-                : Theme.of(context).textTheme.bodyText1,
+                ? CupertinoTheme.of(context).textTheme.textStyle.copyWith(
+                      fontSize: 30 * mediaQuery.textScaleFactor,
+                    )
+                : Theme.of(context).textTheme.bodyText1.copyWith(
+                      fontSize: 30 * mediaQuery.textScaleFactor,
+                    ),
           ),
         ),
       ),
