@@ -25,15 +25,15 @@ class Dicer extends StatelessWidget {
         child: CupertinoApp(
           debugShowCheckedModeBanner: false,
           title: 'Dicee',
-          theme: CupertinoThemeData(
-            textTheme: CupertinoTextThemeData(
-              textStyle: TextStyle(
+          theme: const CupertinoThemeData(
+            textTheme: const CupertinoTextThemeData(
+              textStyle: const TextStyle(
                 color: Colors.red,
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
               ),
-              navActionTextStyle: TextStyle(
-                fontSize: 20,
+              navActionTextStyle: const TextStyle(
+                fontSize: 20.0,
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
               ),
@@ -55,13 +55,13 @@ class Dicer extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Dicee',
           theme: ThemeData(
-            textTheme: TextTheme(
-              headline6: TextStyle(
-                fontSize: 20,
+            textTheme: const TextTheme(
+              headline6: const TextStyle(
+                fontSize: 20.0,
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
               ),
-              bodyText1: TextStyle(
+              bodyText1: const TextStyle(
                 color: Colors.red,
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,

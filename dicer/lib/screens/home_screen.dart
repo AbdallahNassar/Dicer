@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../widgets/button.dart';
-import '../providers/number_provider.dart';
 import '../widgets/dice.dart';
+import '../providers/number_provider.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -21,14 +21,21 @@ class HomeScreen extends StatelessWidget {
           ? CupertinoNavigationBar(
               middle: Text(
                 "Dicer",
-                style: CupertinoTheme.of(context).textTheme.navActionTextStyle,
+                style: CupertinoTheme.of(context)
+                    .textTheme
+                    .navActionTextStyle
+                    .copyWith(
+                      fontSize: 20 * mediaQuery.textScaleFactor,
+                    ),
               ),
             )
           : AppBar(
               backgroundColor: Colors.white,
               title: Text(
                 'Dicer',
-                style: Theme.of(context).textTheme.headline6,
+                style: Theme.of(context).textTheme.headline6.copyWith(
+                      fontSize: 20 * mediaQuery.textScaleFactor,
+                    ),
               ),
               centerTitle: true,
             ),
