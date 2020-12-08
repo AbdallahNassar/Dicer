@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 
 import './providers/number_provider.dart';
 import './screens/home_screen.dart';
-import './screens/splash_screen.dart';
 
 void main() {
   runApp(Dicer());
@@ -42,9 +41,7 @@ class Dicer extends StatelessWidget {
             primaryColor: Colors.red,
             primaryContrastingColor: Colors.white,
           ),
-          home: CustomSplashScreen(
-            nextScreen: HomeScreen(),
-          ),
+          home: HomeScreen(),
         ),
       );
     } else {
@@ -77,9 +74,7 @@ class Dicer extends StatelessWidget {
             // closer together (more dense) than on mobile platforms.
             visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
-          home: CustomSplashScreen(
-            nextScreen: HomeScreen(),
-          ),
+          home: HomeScreen(),
         ),
       );
     }

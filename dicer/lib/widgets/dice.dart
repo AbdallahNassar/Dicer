@@ -35,23 +35,23 @@ class _DiceState extends State<Dice> {
           // based on it
           maxHeight: mediaQuery.orientation == Orientation.landscape
               ? _counter == 0
-                  ? mediaQuery.size.height * 0.65
+                  ? mediaQuery.size.width * 0.3
                   // landscape & counter != 0
                   : _counter.isEven
                       // landscape & counter is even
-                      ? mediaQuery.size.height * 0.55
+                      ? mediaQuery.size.width * 0.25
                       // landscape & counter is odd
-                      : mediaQuery.size.height * 0.45
+                      : mediaQuery.size.width * 0.15
               :
               // portrait
               _counter == 0
                   // portrait & counter != 0
-                  ? mediaQuery.size.height * 0.22
+                  ? mediaQuery.size.width * 0.45
                   : _counter.isEven
                       // portrait & counter is even
-                      ? mediaQuery.size.height * 0.18
+                      ? mediaQuery.size.width * 0.33
                       // portrait & counter is odd
-                      : mediaQuery.size.height * 0.14,
+                      : mediaQuery.size.width * 0.2,
         ),
         alignment: _counter == 0
             ? Alignment.center
@@ -66,9 +66,9 @@ class _DiceState extends State<Dice> {
         child: SvgPicture.asset(
           'assets/images/diceNo${widget.number}.svg',
           color: Colors.white,
-          height: mediaQuery.orientation == Orientation.landscape
-              ? mediaQuery.size.height * 0.65
-              : mediaQuery.size.height * 0.22,
+          width: mediaQuery.orientation == Orientation.landscape
+              ? mediaQuery.size.width * 0.3
+              : mediaQuery.size.width * 0.45,
         ),
       ),
     );

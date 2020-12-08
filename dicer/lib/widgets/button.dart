@@ -62,12 +62,14 @@ class _ButtonState extends State<Button> {
         turns: AlwaysStoppedAnimation(
           (widget.angle / 365),
         ),
-        child: Text(
-          'Roll',
-          textAlign: TextAlign.center,
-          style: Platform.isIOS
-              ? CupertinoTheme.of(context).textTheme.textStyle
-              : Theme.of(context).textTheme.bodyText1,
+        child: FittedBox(
+          child: Text(
+            'Roll',
+            textAlign: TextAlign.center,
+            style: Platform.isIOS
+                ? CupertinoTheme.of(context).textTheme.textStyle
+                : Theme.of(context).textTheme.bodyText1,
+          ),
         ),
       ),
       shape: RoundedRectangleBorder(
