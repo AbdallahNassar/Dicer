@@ -13,7 +13,10 @@ Happy game night!
 
 <img src = "lanscape.gif" height = "400" >
 
-<img src = "google-play-badge.png" height = "300">
+<img src = "google-play-badge.png" height = "200">
+<a href="https://www.qries.com/">
+         <img src="google-play-badge.png" width=150" height="70">
+      </a>
 
 # Concepts Used:
 - OOP
