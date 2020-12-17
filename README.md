@@ -13,7 +13,7 @@ Happy game night!
 
 <img src = "lanscape.gif" height = "400" >
 
-
+<img src = "google-play-badge.png" height = "300">
 
 # Concepts Used:
 - OOP
