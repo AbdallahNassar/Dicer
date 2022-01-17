@@ -10,7 +10,7 @@ Happy game night!
 
 <img src = "portrait.gif" width = "300" >
 
-<img src = "landscape.gif" height = "300" >
+<img src = "lanscape.gif" height = "300" >
 
 
 
