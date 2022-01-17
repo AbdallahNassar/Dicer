@@ -11,20 +11,24 @@ Happy game night!
 <img src = "portrait.gif" width = "300" >
 
 
-<img src = "lanscape.gif" height = "400" >
-
-<a href='https://play.google.com/store/apps/details?id=com.kayanne.Dicer&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-
 # Concepts Used:
 - OOP
-- Animations
-- Widgets Seperation
-- Widgets reutilization
-- Portrait and Landscape modes support
-- Using Andoird/iOS Platform-Specific Widgets 
+- Animations [Open Container Transform especially]
+- Widgets Modularization
+- Widgets Repurposing
+- Canvas and  Custom Painter
+- Gesture Detector
+- State Management [GetX]
+- Local Storage [Shared Prefrences / Get Storage]
+- Resizing Widgets on the fly
+- Grouping and Managing Options [Speed Dial Package]
+
 
 # Packages/Tools used:
-- Provider
-- SVG images
+- GetX, https://pub.dev/packages/get
+- SVG images ,   https://pub.dev/packages/flutter_svg
+- Animations,    https://pub.dev/packages/animations
+- Speed Dial,    https://pub.dev/packages/flutter_speed_dial
+- Color picker,  https://pub.dev/packages/flutter_colorpicker
 - Icon Creation for Android/IOS
 - Splash Screen creation for Android/iOS
