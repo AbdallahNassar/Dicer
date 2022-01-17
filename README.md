@@ -10,25 +10,20 @@ Happy game night!
 
 <img src = "portrait.gif" width = "300" >
 
+<img src = "landscape.gif" height = "300" >
 
-# Concepts Used:
+
+
+Concepts Used:
 - OOP
-- Animations [Open Container Transform especially]
-- Widgets Modularization
-- Widgets Repurposing
-- Canvas and  Custom Painter
-- Gesture Detector
-- State Management [GetX]
-- Local Storage [Shared Prefrences / Get Storage]
-- Resizing Widgets on the fly
-- Grouping and Managing Options [Speed Dial Package]
+- Animations
+- Widgets Seperation
+- Widgets reutilization
+- Portrait and Landscape modes support
+- Using Andoird/iOS Platform-Specific Widgets
 
-
-# Packages/Tools used:
-- GetX, https://pub.dev/packages/get
-- SVG images ,   https://pub.dev/packages/flutter_svg
-- Animations,    https://pub.dev/packages/animations
-- Speed Dial,    https://pub.dev/packages/flutter_speed_dial
-- Color picker,  https://pub.dev/packages/flutter_colorpicker
+Packages/Tools used:
+- Provider
+- SVG images
 - Icon Creation for Android/IOS
-- Splash Screen creation for Android/iOS
+-  Splash Screen creation for Android/iOS
